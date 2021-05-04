@@ -20,6 +20,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    font-size: 14px;
   }
   &__company {
     display: flex;
@@ -33,6 +34,7 @@
       padding: 0 15px 0 15px;
       height: 40px;
       font-weight: bolder;
+      font-size: 16px;
 
       &:hover {
         background-color: $grey-1;
@@ -58,6 +60,7 @@
     align-items: center;
     padding: 0 15px 0 15px;
     height: 40px;
+    font-size: 16px;
     &:hover {
       background-color: $grey-1;
     }

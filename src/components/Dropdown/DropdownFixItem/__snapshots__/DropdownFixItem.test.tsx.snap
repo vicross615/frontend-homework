@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropdownFixItem snapshot 1`] = `
+<DropdownFixItem
+  icon="mock-icon"
+  text="mock-text"
+/>
+`;

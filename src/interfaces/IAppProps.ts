@@ -1,4 +1,6 @@
+import { IToggleDropdownAction } from "../store/actions/toggleDropdownAction";
+
 export interface IAppProps {
-    showDropdown: any;
-    hideDropdown: any;
+  showDropdown: () => IToggleDropdownAction;
+  hideDropdown: () => IToggleDropdownAction;
 }

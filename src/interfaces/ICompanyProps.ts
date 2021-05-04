@@ -1,8 +1,10 @@
 import {ICompany} from './ICompany';
+import {ISelectCompanyAction} from '../store/actions/selectCompanyAction';
+import {IToggleDropdownAction} from '../store/actions/toggleDropdownAction';
 
 export interface ICompanyProps {
-    onCompanyChange: any;
+    onCompanyChange: ((company: ICompany) => (ISelectCompanyAction));
     selectedCompany: ICompany;
     company: ICompany;
-    hideDropdown: any;
+    hideDropdown: (() => (IToggleDropdownAction));
 }

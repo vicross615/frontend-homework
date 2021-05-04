@@ -8,7 +8,7 @@ import {IAppProps} from './interfaces/IAppProps';
 import {IState} from './interfaces/store/IState';
 
 const App: React.FC<IAppProps> = ({showDropdown, hideDropdown}: IAppProps) => {
-    const checkIfOutside = (event: any): boolean => {
+    const checkIfOutside = (event: MouseEvent): boolean => {
         let clickedElement: any = event.target;
 
         while (clickedElement) {
@@ -23,16 +23,16 @@ const App: React.FC<IAppProps> = ({showDropdown, hideDropdown}: IAppProps) => {
         return true;
     };
     useEffect(() => {
-        const onClick = (mouseEvent: any) => {
+        const onClick = (mouseEvent: MouseEvent): void => {
             if (checkIfOutside(mouseEvent)) {
                 hideDropdown();
             }
         };
-        window.addEventListener('click', (e) => onClick(e));
-        return () => {
-            window.removeEventListener('resize', onClick, false);
-        };
+        window.addEventListener('click', (e: MouseEvent) => onClick(e));
+
+        return () => window.removeEventListener('click', onClick, false);
     }, [hideDropdown]);
+
     return (
         <div>
             <nav className="nav">

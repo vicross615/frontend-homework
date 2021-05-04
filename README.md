@@ -53,6 +53,8 @@ This project developed for e-agronom for frontend homework.
 - ✅ Using Jest and Enzym and well tested with Snapshop, Unit-test, and integrated test.
 
 ![e-agronom](e-agronom.gif)
+![e-agronom-ss-01](/screen-shot/e-agronom-ss-01.png)
+![e-agronom-ss-02](/screen-shot/e-agronom-ss-02.png)
 
 - 🪄 You can see [demo](https://eagronom.netlify.app/)
 
@@ -88,3 +90,7 @@ In addition, I check pretty before every commit by add a pre-commit hook. For mo
 Regarding the `S` for `SOLID` I just tried to keep each function(component as a funstion as well) to
 just responsible for a single task. That's why I just created a separate component for every part
 and also keep it simple stupid.
+
+## Test with Jest and Enzym 🪄
+
+![e-agronom-test-ss](/screen-shot/e-argronom-test.png)

@@ -1,5 +1,5 @@
-import {ICompany} from './ICompany';
+import { ICompany } from './ICompany'
 
 export interface IDropdownProps {
-    companies: ICompany[];
+  companies: ICompany[]
 }

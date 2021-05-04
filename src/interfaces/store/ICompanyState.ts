@@ -1,6 +1,6 @@
-import {ICompany} from '../ICompany';
+import { ICompany } from '../ICompany'
 
 export interface ICompanyState {
-    companies: ICompany[];
-    selectedCompany: ICompany;
+  companies: ICompany[]
+  selectedCompany: ICompany
 }

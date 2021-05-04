@@ -1,6 +1,6 @@
-import {ICompanyState} from './ICompanyState';
+import { ICompanyState } from './ICompanyState'
 
 export interface IState {
-    company: ICompanyState;
-    dropdown: any;
+  company: ICompanyState
+  dropdown: any
 }

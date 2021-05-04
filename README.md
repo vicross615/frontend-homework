@@ -52,7 +52,7 @@ This project developed for e-agronom for frontend homework.
 - ✅ Using react hook to control the general state in the application.
 - ✅ Using Jest and Enzym and well tested with Snapshop, Unit-test, and integrated test.
 
-![e-agronom](e-agronom.gif)
+![e-agronom](/screen-shot/e-agronom.gif)
 ![e-agronom-ss-01](/screen-shot/e-agronom-ss-01.png)
 ![e-agronom-ss-02](/screen-shot/e-agronom-ss-02.png)
 

@@ -8,9 +8,7 @@ import { IState } from '../../interfaces/store/IState'
 const Dropdown: React.FC<IDropdownProps> = ({ companies }: IDropdownProps) => {
   return (
     <div className="nav__list">
-      <div className="nav__list__item nav__list__item--company-title">
-        Your companies
-      </div>
+      <div className="nav__list__item--company-title">Your companies</div>
       <div className="nav__list__item__company">
         <div className="nav__list__item__company--wrapper">
           {companies.map((item) => (

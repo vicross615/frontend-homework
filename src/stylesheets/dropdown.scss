@@ -24,6 +24,14 @@
       background-color: $grey-1;
     }
 
+    &--company-title {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      padding: 0 15px 0 15px;
+      height: 40px;
+    }
+
     &__company {
       display: flex;
       flex-direction: column;
@@ -80,4 +88,8 @@
   &:focus {
     background-color: rgba($brown, 0.1) !important;
   }
+}
+
+.color-red {
+  color: $red;
 }

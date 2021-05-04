@@ -1,0 +1,16 @@
+.color-red {
+  color: $red;
+}
+
+.selected-company {
+  background-color: rgba($brown, 0.2);
+  span,
+  i {
+    color: $brown;
+    font-weight: bolder;
+  }
+  &:hover,
+  &:focus {
+    background-color: rgba($brown, 0.1) !important;
+  }
+}

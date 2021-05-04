@@ -1,4 +1,4 @@
-.nav__list {
+.dropdown {
   display: flex;
   flex-direction: column;
   padding: 10px 0 10px 0;
@@ -10,9 +10,50 @@
   background: $white;
   border: 1px solid $grey-3;
   box-sizing: border-box;
-  box-shadow: 0 2px 8px rgba(51, 51, 51, 0.24);
+  box-shadow: 0 2px 8px rgba($dark, 0.24);
   border-radius: 8px;
   cursor: pointer;
+  &--title {
+    color: $grey-6;
+    padding: 0 15px 0 15px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__company {
+    display: flex;
+    height: 40px;
+    font-weight: bolder;
+
+    flex-direction: column;
+    flex: 1;
+
+    &--item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 15px 0 15px;
+      height: 40px;
+      font-weight: bolder;
+
+      &:hover {
+        background-color: $grey-1;
+      }
+
+      span {
+        display: flex;
+      }
+
+      i {
+        display: flex;
+      }
+    }
+    &--icon {
+      font-size: 16px;
+      margin-right: 5px;
+    }
+  }
 
   &__item {
     display: flex;
@@ -24,48 +65,8 @@
       background-color: $grey-1;
     }
 
-    &--company-title {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      padding: 0 15px 0 15px;
-      height: 40px;
-    }
-
-    &__company {
-      display: flex;
-      flex-direction: column;
-
-      &--wrapper {
-        div {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 0 15px 0 15px;
-          height: 40px;
-          font-weight: bolder;
-
-          &:hover {
-            background-color: $grey-1;
-          }
-
-          span {
-            display: flex;
-          }
-
-          i {
-            display: flex;
-          }
-        }
-      }
-    }
-
-    &--company-title {
-      color: $grey-6;
-    }
-
     &--border {
-      border: 1px solid #dcdce0;
+      border: 1px solid $grey-3;
       height: 0;
       width: 100%;
     }
@@ -75,21 +76,4 @@
       margin-right: 5px;
     }
   }
-}
-
-.selected-company {
-  background-color: rgba($brown, 0.2);
-  span,
-  i {
-    color: $brown;
-    font-weight: bolder;
-  }
-  &:hover,
-  &:focus {
-    background-color: rgba($brown, 0.1) !important;
-  }
-}
-
-.color-red {
-  color: $red;
 }

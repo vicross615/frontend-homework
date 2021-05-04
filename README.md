@@ -64,19 +64,17 @@ This project developed for e-agronom for frontend homework.
 
 ### Branching
 
-Firstly, I developed a Javascript structure after that I add Typescript to the project same as the main structure. The branching like below:
-
 - `Main` - ✨ Typescript structure (Last change of Typescript branch merge to Main branch)
 - `feature/ts-structure` - ✨ Typescript structure
 - `feature/js-structure` - ✨ Javascript structure
 
 ### BEM
 
-I use BEM methodology with SCSS format to create reusable components for this task. I follow the structure developed in the dummy files.
+BEM is used for methodology with SCSS format to create reusable components for this task. I follow the structure developed in the dummy files.
 
 ### Husky
 
-I use Husky for git hook pre-commit to format all code with Prettier.
+Husky is used for git hook pre-commit to format all code with Prettier.
 
 ### Prettier
 
@@ -91,6 +89,6 @@ Regarding the `S` for `SOLID` I just tried to keep each function(component as a 
 just responsible for a single task. That's why I just created a separate component for every part
 and also keep it simple stupid.
 
-## Test with Jest and Enzym 🪄
+## Test with Jest and Enzyme 🪄
 
 ![e-agronom-test-ss](/screen-shot/e-argronom-test.png)

@@ -3,14 +3,14 @@
 }
 
 .selected-company {
-  background-color: rgba($brown, 0.2);
+  background-color: rgba($light-green, 0.1) !important;
   span,
   i {
-    color: $brown;
+    color: $dark-green;
     font-weight: bolder;
   }
   &:hover,
   &:focus {
-    background-color: rgba($brown, 0.1) !important;
+    background-color: rgba($dark-green, 0.2) !important;
   }
 }

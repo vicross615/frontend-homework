@@ -23,12 +23,9 @@
   }
   &__company {
     display: flex;
-    height: 40px;
     font-weight: bolder;
-
     flex-direction: column;
     flex: 1;
-
     &--item {
       display: flex;
       align-items: center;

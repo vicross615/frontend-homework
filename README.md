@@ -56,6 +56,16 @@ This project developed for e-agronom for frontend homework.
 
 # Code scaffolding
 
+- I use several methology of clean code in this frontend project.
+
+### Branching
+
+Firstly, I developed a Javascript structure after that I add Typescript to the project same as the main structure. The branching like below:
+
+- `Main` - ✨ Typescript structure (Last change of Typescript branch merge to Main branch)
+- `feature/ts-structure` - ✨ Typescript structure
+- `feature/js-structure` - ✨ Javascript structure
+
 ### BEM
 
 I use BEM methodology with SCSS format to create reusable components for this task. I follow the structure developed in the dummy files.

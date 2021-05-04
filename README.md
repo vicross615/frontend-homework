@@ -43,6 +43,8 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 # ✨ E-agronom frontend homework ✨
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/49218646-5979-4468-beb5-9c22811411ad/deploy-status)](https://app.netlify.com/sites/eagronom/deploys)
+
 This project developed for e-agronom for frontend homework.
 
 - ✅ Using Redux for state management.
